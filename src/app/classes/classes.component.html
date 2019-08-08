@@ -1,0 +1,56 @@
+
+<div style="margin-top:0px;padding: 25px;" class="bg-img">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+            <header>
+                <h1>Try Our<em>Monthly Classes</em></h1>
+                <p>Step outside the box !</p>
+            </header>
+        </div>
+        <div class="col-lg-8 col-md-10">
+            <!-- <div class="row">
+                <div *ngFor = "let class of classes" class="col-sm-4 content-box">
+                    
+                        <div class="class-header">
+                            <strong>{{class.header}}</strong>
+                        </div>
+                        <div class="content-style">
+                            <h4> {{class.center_content}} </h4>
+                            <span class="result-desc"> {{class.bottom_content}} </span>
+                        </div>
+                        <div class="read-more pop-out-more">
+                            <button class="btn btn-success">Sign-up Now</button>
+                        </div>
+                    
+                </div>
+            </div> -->
+            <div class="row nopadding margin-top-20">
+                <div class="main-container">
+                    <div *ngFor="let class of classes">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-12 content-box nopadding">
+                                    <div class="class-header">
+                                        <strong>{{class.header}}</strong>
+                                    </div>
+                                    <div>
+                                        <div class="col-sm-12 content-style">
+                                            <h4> {{class.center_content}} </h4>
+                                            <span class="result-desc"> {{class.bottom_content}} </span>
+                                        </div>
+                                        <div class="ribbon-wrapper-red">
+                                            <div class="ribbon-red">Private</div>
+                                        </div>
+                                        <div class="read-more">
+                                            <button class="btn btn-success" title="Click to sign up">Sign-up Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
