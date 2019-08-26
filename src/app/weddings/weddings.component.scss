@@ -1,0 +1,267 @@
+
+.content-box {
+    //width: 31.333%;
+    background-color: rgba(47,47,47,0.6);
+    color: #FFFFFF;
+    position: relative;
+    margin: 20% 10% 20% 5%;
+    //min-height: 50%;
+    //max-height: 50%;
+    border: 0px;
+    overflow: hidden;
+    opacity: 0.6;
+    vertical-align: center;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.content-div {
+    //width: 31.333%;
+    color: #FFFFFF;
+    margin: 10px; 
+    border:1px solid #8a6d3b;
+    position: relative;
+    //min-height: 380px;
+    //max-height: 380px;
+}
+
+
+.bg-img-s1 {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 100%;
+    background-image: url(../../assets/img/S1-Header.jpeg);
+    background-size: cover;
+    background-position: top;
+    //font-size: .9375vw;
+    display: block;
+}
+
+.bg-img-s2 {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 100%;
+    background-image: url(../../assets/img/S2-Grey-Background.jpeg);
+    background-size: cover;
+    background-position: center;
+    //font-size: .9375vw;
+    display: block;
+}
+
+.bg-img-s3 {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 100%;
+    background-image: url(../../assets/img/S3-Philosophical.jpeg);
+    background-size: cover;
+    background-position: center;
+    //font-size: .9375vw;
+    display: block;
+}
+
+.expect-icon {
+    position: relative;
+    //background-color: #2F2F2F;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    //font-size: .9375vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.package-icon {
+    position: relative;
+    //background-color: #2F2F2F;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    //font-size: .9375vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-img-s4 {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 100%;
+    background-image: url(../../assets/img/Wedding-S4-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    //font-size: .9375vw;
+    display: block;
+}
+
+.s2-img-textured {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 30%;
+    background-image: url(../../assets/img/S2Turquoise-textured.jpeg);
+    background-size: cover;
+    //background-position: 50% 50%;
+    //font-size: .9375vw;
+    margin: 2% 0% 0% 0%;
+    display: block;
+}
+
+
+/* .bg-img .row ::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 5em;
+}
+
+.bg-img .row ::-webkit-scrollbar-thumb {
+    border-radius: 5em;
+    background-color: #811a17;
+}
+
+.bg-img .row ::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5em;
+} */
+
+.nopadding {
+    padding: 0;
+}
+
+.no-space {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px !important;
+}
+
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+
+.margin-top-15 {
+    margin-top: 15px !important;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px !important;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px !important;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px !important;
+}
+
+.margin-right-10 {
+    margin-right: 10px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.concern-text {
+    padding: 20% 10% 20% 10%;
+    color: #FFFFFF;
+}
+
+.desktop-image {
+    background-image: url(../../assets/img/S2Turquoise-textured.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 50%;
+    //border: 5px solid #0f0f10;
+    position: relative;
+}
+
+.desktop-image>img {
+    width: 40%;
+    //height: 80%;
+    //border: 5px solid #0f0f10;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(0, -50%);
+}
+
+
+p>b {
+    color: #333
+}
+
+.package-padding {
+    padding: 1%;
+}
+
+  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    //border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    opacity: 0.9;
+    background-color: #28211b;
+    color: white;
+    transform: rotateY(180deg);
+}
