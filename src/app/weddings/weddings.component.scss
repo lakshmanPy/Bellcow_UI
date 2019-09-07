@@ -307,9 +307,13 @@
 
   /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
+    float: center;
     background-color: transparent;
     width: 300px;
     height: 300px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     //border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -421,7 +425,7 @@
 	border-radius: 50%;
 }
 .carousel .testimonial {	
-    padding: 25% 10% 0% 10%;
+    //padding: 25% 10% 0% 10%;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 14px;
@@ -506,12 +510,10 @@
 
 .center-content-s8 {
     position: absolute;
-    top: 30%;
-    left: 0%;
-    //width: 40%;
-    //max-width: 100%;
-    //@at-rootmax-height: 100%;
-    //transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .center-content {
