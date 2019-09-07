@@ -9,7 +9,6 @@
     //max-height: 50%;
     border: 0px;
     overflow: hidden;
-    opacity: 0.6;
     vertical-align: center;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
@@ -26,10 +25,57 @@
 
 
 .bg-img-s1 {
+    top: -9999px;
+    //margin: auto;
+    //position: relative;
+    width: 100%;
+    //height: 100%;
+    min-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    content: url(../../assets/img/cropped3.jpg);
+    //display: block;
+}
+
+.s5-row-img-1 {
+    //margin: auto;
+    //position: relative;
+    height: 84px;
+    width: 60px;
+    margin: 196px 30px 10px 571px;
+    object-fit: cover;
+    content: url(../../assets/img/Wedding-S5-Wall-photos.jpg);
+    //display: block;
+}
+
+.s5-row-img-2 {
+    //margin: auto;
+    //position: relative;
+    height: 84px;
+    width: 60px;
+    margin: 196px 30px 10px 75px;
+    object-fit: cover;
+    content: url(../../assets/img/Wedding-S5-Wall-photo-2.jpg);
+    //display: block;
+}
+
+.s5-row-img-3 {
+    //margin: auto;
+    //position: relative;
+    height: 84px;
+    width: 60px;
+    margin: -115px 30px 10px 892px;
+    object-fit: cover;
+    content: url(../../assets/img/Wedding-S5-Wall-photos-3.jpg);
+    //display: block;
+}
+
+.bg-img-s5 {
     position: relative;
     background-color: #2F2F2F;
     height: 100%;
-    background-image: url(../../assets/img/S1-Header.jpeg);
+    background-image: url(../../assets/img/Wedding-S5-main-photo.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     //font-size: .9375vw;
@@ -59,15 +105,14 @@
 }
 
 .bg-img-s8 {
-    position: relative;
-    background-color: #2F2F2F;
-    height: 100%;
-    background-image: url(../../assets/img/S8-Group-Dance.jpg);
-    background-size: cover;
-    background-position: center;
+    //position: relative;
+    height: 80vh;
+    width: 100%;
+    min-width: 100%;
+    content: url(../../assets/img/S8-Group-Dance.jpg);
     //font-size: .9375vw;
-    display: block;
-    opacity: 0.7;
+    object-fit: cover;
+    opacity: 0.4;
 }
 
 .expect-icon {
@@ -77,6 +122,7 @@
     width: 100px;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
     //font-size: .9375vw;
     display: block;
     margin-left: auto;
@@ -86,8 +132,8 @@
 .package-icon {
     position: relative;
     //background-color: #2F2F2F;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-size: cover;
     background-position: center;
     //font-size: .9375vw;
@@ -105,6 +151,34 @@
     background-position: center;
     //font-size: .9375vw;
     display: block;
+}
+
+.img-s9 {
+    position: relative;
+    content: url(../../assets/img/S9-What-If-pic.jpg);
+    object-fit: cover;
+    height: 300;
+    width: 400px;
+}
+
+.bg-1-whatif {
+    position: relative;
+    background-color: #2F2F2F;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url(../../assets/img/S2-Grey-Background.jpeg);
+}
+
+.bg-2-whatif {
+    background-image: url(../../assets/img/S2Turquoise-textured.jpeg);
+    position: relative;
+    background-color: #2F2F2F;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .s2-img-textured {
@@ -223,9 +297,9 @@
     transform: translate(0, -50%);
 }
 
-p>b {
+/* p>b {
     color: #333
-}
+} */
 
 .package-padding {
     padding: 2%;
@@ -234,8 +308,8 @@ p>b {
   /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     //border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -274,60 +348,53 @@ p>b {
     opacity: 0.9;
     background-color: #28211b;
     color: white;
+    padding-top: 40px;
     transform: rotateY(180deg);
 }
 
 .bg-review-1 {
     position: relative;
-    background-color: #28211b;
-    height: 330px;
-    background-image: url(../../assets/img/S7-Reviews-1.jpg);
-    background-size: cover;
-    //background-position: center;
-    //font-size: .9375vw;
-    display: block;
+    height: 500px;
+    //height: 50vh;
+    width: 100%;
+    content: url(../../assets/img/S7-Reviews-1.jpg);
+    object-fit: cover;
     opacity: 0.4;
 }
 
 .bg-review-2 {
     position: relative;
-    background-color: #28211b;
-    height: 330px;
-    background-image: url(../../assets/img/S7-Reviews-2.jpg);
-    background-size: cover;
-    //background-position: center;
-    //font-size: .9375vw;
-    display: block;
+    height: 500px;
+    width: 100%;
+    min-width: 100%;
+    content: url(../../assets/img/S7-Reviews-2.jpg);
+    object-fit: cover;
     opacity: 0.4;
 }
 
 .bg-review-3 {
     position: relative;
-    background-color: #28211b;
-    height: 330px;
-    background-image: url(../../assets/img/S7-Reviews-3.jpg);
-    background-size: cover;
-    //background-position: center;
-    //font-size: .9375vw;
-    display: block;
+    height: 500px;
+    width: 100%;
+    min-width: 100%;
+    content: url(../../assets/img/S7-Reviews-3.jpg);
+    object-fit: cover;
     opacity: 0.4;
 }
 
 .bg-review-4 {
     position: relative;
-    background-color: #28211b;
-    height: 330px;
-    background-image: url(../../assets/img/S7-Reviews-4.jpg);
-    background-size: cover;
-    //background-position: center;
-    //font-size: .9375vw;
-    display: block;
+    height: 500px;
+    width: 100%;
+    min-width: 100%;
+    content: url(../../assets/img/S7-Reviews-4.jpg);
+    object-fit: cover;
     opacity: 0.4;
 }
 
 .carousel {
-    width: 94%;
-    //height: 340px;
+    width: 100%;
+    height: 500px;
 	margin: 0 auto;
 	padding-bottom: 0px;
 }
@@ -336,7 +403,7 @@ p>b {
 	font-size: 14px;
     text-align: center;
 	overflow: hidden;
-    min-height: 350px;
+    min-height: 500px;
 }
 
 .carousel .img-box {
@@ -354,9 +421,10 @@ p>b {
 	border-radius: 50%;
 }
 .carousel .testimonial {	
-    padding: 10% 10% 0% 10%;
+    padding: 25% 10% 0% 10%;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 14px;
 }
 .carousel .overview {	
 	text-align: center;
@@ -409,4 +477,49 @@ p>b {
 .carousel-indicators li.active {
 	border: none;
 	background: #888;
+}
+
+
+
+
+
+
+/* Container holding the image and the text */
+.container-s1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Centered text */
+.left-content {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    //width: 40%;
+    //max-width: 100%;
+    //@at-rootmax-height: 100%;
+    //transform: translate(-50%, -50%);
+}
+
+.center-content-s8 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    //width: 40%;
+    //max-width: 100%;
+    //@at-rootmax-height: 100%;
+    //transform: translate(-50%, -50%);
+}
+
+.center-content {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    //width: 40%;
+    //max-width: 100%;
+    //@at-rootmax-height: 100%;
+    //transform: translate(-50%, -50%);
 }
